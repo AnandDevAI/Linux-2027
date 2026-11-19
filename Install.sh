@@ -307,18 +307,18 @@ function configure_prompt_and_hostname() {
 
 function print_banner() {
     clear
-    printf "${blue}######################################################\n"
-    printf "${blue}##                                                  ##\n"
-    printf "${blue}##     db      888b      88    db    888b      88   ##\n"
-    printf "${blue}##    d88b     8888b     88   d88b   8888b     88   ##\n"
-    printf "${blue}##   d8''8b    88 '8b    88  d8''8b  88 '8b    88   ##\n"
-    printf "${blue}##  d8'  '8b   88  '8b   88 d8'  '8b 88  '8b   88   ##\n"
-    printf "${blue}## d8YaaaaY8b  88   '8b  88d8YaaaaY8b88   '8b  88   ##\n"
-    printf "${blue}##d8''''''''8b 88    '8b 888''''''''888    '8b 88   ##\n"
-    printf "${blue}##d8'        '8b88     '8888'        '8b     '888   ##\n"
-    printf "${blue}##d8'          '88      '888'          '8b     '8   ##\n"
-    printf "${blue}##                                                  ##\n"
-    printf "${blue}#### #############     ANAND     ####################${reset}\n\n"
+    printf "${red}####################################################################\n"
+    printf "${red}##                                                                ##\n"
+    printf "${red}##     db      888b      88    db    888b      88 88888888ba,     ##\n"
+    printf "${red}##    d88b     8888b     88   d88b   8888b     88 88      \`\"8b    ##\n"
+    printf "${red}##   d8''8b    88 '8b    88  d8''8b  88 '8b    88 88        \`8b   ##\n"
+    printf "${red}##  d8'  '8b   88  '8b   88 d8'  '8b 88  '8b   88 88         88   ##\n"
+    printf "${red}## d8YaaaaY8b  88   '8b  88d8YaaaaY8b88   '8b  88 88         88   ##\n"
+    printf "${red}##d8''''''''8b 88    '8b 888''''''''888    '8b 88 88         8P   ##\n"
+    printf "${red}##d8'        '8b88     '8888'        '8b     '888 88      .a8P    ##\n"
+    printf "${red}##d8'          '88      '888'          '8b     '8 88888888Y\"'     ##\n"
+    printf "${red}##                                                                ##\n"
+    printf "${red}#### #######################    ANAND    #########################${reset}\n\n"
 }
 
 cd "$HOME"
